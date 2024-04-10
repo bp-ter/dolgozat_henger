@@ -1,0 +1,42 @@
+<!--
+File: index.html
+Author: Berta Péter
+Copyright: 2024, Berta Péter
+Group: Szoft 1/2/N
+Date: 2024-04-10
+Github: https://github.com/bp-ter/
+Licenc: GNU GPL
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henger</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.js">
+</head>
+<body>
+    <div class="container">
+        <h1>Kör alapú henger felület számítása</h1>
+        <div>
+            <label class="mt-2" for="sugar">Henger sugara (r)</label>
+            <input type="text" id="sugar">
+            <label for="sugar"> cm</label>
+        </div>
+        <div>
+            <label class="mt-2" for="magassag">Henger magassága (h)</label>
+            <input type="text" id="magassag">
+            <label for="sugar"> cm</label>
+        </div>
+        <div>
+            <button class="btn btn-primary mt-2" id="countButton">Számolás</button>
+        </div>
+        <div id="eredmeny">
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
